@@ -14,7 +14,7 @@ body {
 
 /* HEADINGS AND LOGO */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Fredoka One, sans-serif;
     letter-spacing: 2px;
     color: #252525;
@@ -76,4 +76,34 @@ h1, h2 {
 
 #services-section {
     height: 750px;
+    background-color:beige;
 }
+
+#services-headline {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+.lcol {
+    float: left;
+}
+
+.rcol {
+    float: right;
+}
+
+.c50 {
+    width: 45%;
+    margin: 20px;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.txt-center {
+    text-align: center;
+    font-size: 200%;
+}
+
