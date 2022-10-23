@@ -12,16 +12,68 @@ body {
     color: #3a3a3a;
 }
 
-/* headings and logo */
+/* HEADINGS AND LOGO */
 
 h1, h2 {
     font-family: Fredoka One, sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
     color: #252525;
 }
 
 #logo {
     float: left;
     font-size: 280%;
-    margin-left: 30px;
+    margin-left: 40px;
+}
+
+/* NAVIGATION */
+
+#menu {
+    font-size: 130%;
+    letter-spacing: 2px;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* HERO IMAGE */
+
+#hero-outer {
+    height: 750px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+#hero-image {
+    height: 750px;
+    width: 100%;
+    background: url('../images/dogs_girl_dirtroad.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+/* SERVICES */
+
+#services-section {
+    height: 750px;
 }
