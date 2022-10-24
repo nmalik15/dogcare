@@ -74,28 +74,28 @@ h1, h2, h3 {
 
 /* SERVICES */
 
+h3 {
+    font-size: 160%;
+    font-style: oblique;
+}
+
+p {
+    font-size: 160%;
+    font-weight: bold;
+}
+
+
 #services-section {
-    height: 750px;
+    max-height: fit-content;
     background-color:beige;
+    text-align: center;
 }
 
 #services-headline {
     text-align: center;
-    margin: 20px 0;
     font-size: 280%;
-}
-
-.lcol {
-    float: left;
-}
-
-.rcol {
-    float: right;
-}
-
-.c50 {
-    width: 45%;
-    margin: 20px;
+    padding-top: 0px;
+    color: orange;
 }
 
 .w100 {
@@ -105,5 +105,41 @@ h1, h2, h3 {
 .txt-center {
     text-align: center;
     font-size: 200%;
+    padding-top: 60px;
 }
 
+#box-l {
+    text-align: center;
+    background-color: orange;
+    padding:0 5px 0 5px;
+    min-height: fit-content;
+    border: 1px solid black;
+    width: 30%;
+    float: left;
+    margin-left: 2rem;
+}
+
+#box-c {
+    text-align: center;
+    background-color: lightgreen;
+    padding:0 5px 0 5px;
+    min-height: fit-content;
+    border: 1px solid black;
+    width: 30%;
+}
+
+#box-r {
+    text-align: center;
+    background-color: lightsalmon;
+    padding:0 5px 0 5px;
+    min-height: fit-content;
+    border: 1px solid black;
+    width: 30%;
+    float: right;
+    margin-right: 2rem;
+}
+
+.service-box {
+    width: 30%;
+    display: inline-block;
+}
