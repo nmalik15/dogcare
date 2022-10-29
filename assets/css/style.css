@@ -73,6 +73,7 @@ h1, h2, h3 {
     width: 100%;
     background: url('../images/dogs_girl_dirtroad.jpg') no-repeat center center;
     background-size: cover;
+    
 }
 
 /* SERVICES */
@@ -88,10 +89,10 @@ p {
 }
 
 #services-section {
-    max-height: 110%;
     padding-top: 1rem;
     background-color: rgb(95, 50, 20);
     text-align: center;
+    display: inline-block;
 }
 
 #services-headline {
@@ -111,41 +112,16 @@ p {
     padding-top: 60px;
 }
 
-#box-l {
-    text-align: center;
-    background-color: orange;
-    padding:0 5px 0 5px;
-    min-height: fit-content;
-    border: 1px solid black;
-    width: 30%;
-    float: left;
-    margin-left: 2rem;
-}
-
-#box-c {
-    text-align: center;
-    background-color: lightgreen;
-    padding:0 5px 0 5px;
-    min-height: fit-content;
-    border: 1px solid black;
-    width: 30%;
-}
-
-#box-r {
-    text-align: center;
-    background-color: lightsalmon;
-    padding:0 5px 0 5px;
-    min-height: fit-content;
-    border: 1px solid black;
-    width: 30%;
-    float: right;
-    margin-right: 2rem;
-}
-
 .service-box {
     width: 30%;
+    box-sizing: border-box;
     display: inline-block;
-    margin-bottom: 1rem;
+    margin:0 0.5rem 1rem 0.5rem;
+    padding: 0 5px 0 5px;
+    min-height: fit-content;
+    border: 1px solid black;
+    text-align: center;
+    background-color: lightsalmon;
 }
 
 /* contact */
@@ -199,7 +175,7 @@ input[type="submit"]:hover {
 
 footer {
 	background-color: white;
-	padding: 1em;
+	padding: 1em 0 1em 0;
 	text-align: center;
     width: 100%;
     bottom: 0;
@@ -246,10 +222,7 @@ footer > p > a:hover {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
-    }
-
-    #menu, #logo {
-        text-align: center;
+        letter-spacing: 0;
     }
 
     #hero-outer {
@@ -261,4 +234,10 @@ footer > p > a:hover {
         height: 450px;
         width: 100%;
     }
-}
+
+    .service-box {
+        width: 93vw;
+        display: block;
+        margin: 0rem 1rem 1rem 1rem;
+    }
+
