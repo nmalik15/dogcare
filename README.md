@@ -56,5 +56,9 @@ Users can find out about the services, and ask questions via form, and also chec
 - Site was deployed to GitHub
 - Link is: https://nmalik15.github.io/dogcare/
 
+## Credits
+- Images for the project were used from the free media website pexels.com
+- Nav bar code was used from Lover Running project
+
 
 Thank you!
