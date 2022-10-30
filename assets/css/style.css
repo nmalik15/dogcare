@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Josefin Sans, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
@@ -15,7 +15,7 @@ body {
 /* HEADINGS AND LOGO */
 
 h1, h2, h3 {
-    font-family: Fredoka One, sans-serif;
+    font-family: "Fredoka One", sans-serif;
     letter-spacing: 2px;
     color: black;
 }
@@ -240,3 +240,4 @@ footer > p > a:hover {
         display: block;
         margin: 0rem 1rem 1rem 1rem;
     }
+}
