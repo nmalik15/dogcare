@@ -1,4 +1,4 @@
-## Gitpod Reminders
+## DOG CARE PROJECT
 
 Dog Care project is a static website for users who need to put their dog in the care of the professional team while they need to go away for a while.
 Uers can find out about the services, and ask questions via form, and also check the social network links.
