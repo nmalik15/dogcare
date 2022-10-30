@@ -71,7 +71,7 @@ h1, h2, h3 {
 #hero-image {
     height: 750px;
     width: 100%;
-    background: url('../images/dogs_girl_dirtroad.jpg') no-repeat center center;
+    background: url('../images/dogs_girl_dirtroad.webp') no-repeat center center;
     background-size: cover;
     
 }
